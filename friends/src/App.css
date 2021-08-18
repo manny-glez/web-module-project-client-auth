@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  color: white;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+  0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  margin-left: 50px;
+}
+
+nav {
+  margin-right: 50px;
+}
+
+a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-title {
+  color: white;
+  background-color: rgb(51, 82, 59);
+  padding: 10px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.form-container {
+  width: 30%;
+  margin: auto;
+  box-shadow: 0 -1px 0 #7c7c7c, 0 0 2px rgba(0, 0, 0, 0.12),
+  0 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-top: 100px;
+  background-color: white;
+}
+
+form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.friends-list {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://s.yimg.com/uu/api/res/1.2/GR3YZPzVkRc5YVM0YbTvwA--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/people_218/72d4dffdc1399a501309b9e3556ebae9');
+  height: 100vh;
+  border-top: solid black 1px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-container {
+    width: 80%;
+  }
+}
+
+.friend-card {
+  background-color: rgba(0, 0, 0, 0.431);
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.friend-card:hover {
+  transition: 1s;
+  background-color: rgba(0, 0, 0, 0.596);
+  transform: scale(1.1);
+}
